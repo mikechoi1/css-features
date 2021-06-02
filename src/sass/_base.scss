@@ -1,0 +1,35 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    // default is 16px so if we want 10px, 10 / 16 = .625
+    // defines what 1 rem is
+    font-size: 62.5%;   //1rem = 10px
+
+    // @include respond(tab-land) {
+    //     font-size: 56.25%; //1rem = 9px -> 9/16 = 56.25%
+    // }
+
+    // @include respond(tab-port) {
+    //     font-size: 50%; //1rem = 8px -> 8/16 = 50%
+    // }
+
+    // @include respond(big-desk) {
+    //     font-size: 75%; //1rem = 12px -> 12/16 = 75%
+    // }
+}
+
+body {
+    box-sizing: border-box;
+    line-height: 1.6;
+    // padding: 3rem;
+
+    // @include respond(tab-port) {
+    //     padding: 0;
+    // }
+}

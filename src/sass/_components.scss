@@ -1,0 +1,23 @@
+.logo {
+    margin-left: 2rem;
+    cursor: pointer;
+    padding: .5rem 1rem;
+
+    &:hover {
+        color: $color-primary;
+    }
+}
+.nav {
+    display: flex;
+    align-items: center;
+    align-self: stretch;
+
+    & > * {
+        padding: .5rem 2rem;
+        cursor: pointer;
+
+        &:hover {
+            color: $color-primary;
+        }
+    }
+}
